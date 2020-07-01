@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ipaidimarla/generic-template#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "bootstrap": "^4.5.0",
+    "glob": "^7.1.6",
+    "require": "^2.4.20"
   }
 }
