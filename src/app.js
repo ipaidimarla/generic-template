@@ -4,8 +4,8 @@ $(document).ready(function(){
         success: function(data){
            $(data).find("a:contains(.jpeg)").each(function(){
               // will loop through 
-              var images = $(this).attr("href");
-      
+              let images = $(this).attr("href");
+            images = images.substring(1);
               const div = document.createElement('div');
               div.classList.add('col-lg-3');
               div.classList.add('col-md-4')
