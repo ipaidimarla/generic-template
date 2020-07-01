@@ -12,11 +12,11 @@ $(document).ready(function(){
               div.classList.add('col-xs-6')
               div.classList.add('thumb');
               const anchor = document.createElement('a');
-              anchor.setAttribute('href', '.'+images);
+              anchor.setAttribute('href', images);
               anchor.classList.add('fancybox');
               anchor.setAttribute('rel', 'ligthbox');
               const image = document.createElement('img');
-              image.setAttribute('src', '.'+images);
+              image.setAttribute('src', images);
               image.classList.add('zoom')
               image.classList.add('img-fluid');
               image.setAttribute('alt', 'image not found');
