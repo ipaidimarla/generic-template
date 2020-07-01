@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $.ajax({
-        url: "../images/",
+        url: "/images/",
         success: function(data){
            $(data).find("a:contains(.jpeg)").each(function(){
               // will loop through 
